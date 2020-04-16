@@ -152,7 +152,20 @@ main ul li a {
 /* Fine regole colonna sinistra */
 
 /* Inizio regole colonna centrale */
+article {
+  border-bottom: 1px solid lightgray;
+  background: #fff;
+  border-radius: 3px;
+}
 
+article .header-article,
+article .image-article p,
+article .footer-article {
+  padding: 30px;
+}
+article .image-article img{
+  width: 100%;
+}
 /* Fine regole colonna centrale */
 
 /* Inizio regole colonna destra */
