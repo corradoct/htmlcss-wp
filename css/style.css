@@ -205,3 +205,76 @@ main .right .tag ul li.big {
 }
 
 /* Fine regole colonna destra */
+
+/* Inizio regole footer */
+footer {
+  background: #fff;
+  line-height: 40px;
+}
+
+footer .footer-box {
+  float: left;
+  width: 15%;
+  padding-right: 35px;
+  margin-right: 20px;
+}
+
+footer .footer-box:last-child {
+  width: 40%;
+  padding-right: 10px;
+  margin-left: 100px;
+}
+
+footer .footer-top span {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer .footer-top ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+footer .footer-top ul li a,
+footer .footer-bottom a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer .footer-top,
+footer .footer-bottom {
+  border-bottom: 1px solid gray;
+  padding: 70px;
+}
+
+footer .footer-bottom {
+  border: 0;
+}
+
+footer::after,
+footer .footer-top::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer .footer-bottom ul li {
+  display: inline;
+  list-style: none;
+}
+
+footer .footer-bottom .copyright {
+  float: left;
+}
+
+footer .footer-bottom .social {
+  float: right;
+}
+
+footer .footer-bottom .social ul li a i {
+  background: lightgray;
+  color: gray;
+  padding: 10px;
+  border-radius: 50%;
+}
+/* Fine regole footer */
