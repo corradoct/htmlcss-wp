@@ -113,17 +113,19 @@ main .center {
   margin: 0 2%;
 }
 
-main .col .box {
+main .col .box,
+main .right .tag {
   margin-bottom: 7%;
   background: #fff;
   border-radius: 3px;
 }
 
-main .col .box {
+main .col .box,
+main .right .tag {
   padding: 25px;
 }
 
-main .col .box span{
+main span{
   font-size: 20px;
 }
 
@@ -131,7 +133,7 @@ main .col .box ul li {
   padding: 20px;
 }
 
-main .col .box ul li {
+main ul li {
   list-style: none;
 }
 
@@ -142,7 +144,51 @@ main .col .box ul li:hover {
   text-decoration: underline;
 }
 
-main .col .box ul li a {
+main ul li a {
   text-decoration: none;
   color: green;
 }
+
+/* Fine regole colonna sinistra */
+
+/* Inizio regole colonna centrale */
+
+/* Fine regole colonna centrale */
+
+/* Inizio regole colonna destra */
+main .right .search input {
+  padding: 10px;
+  margin-right: 10px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+main .right .search button {
+  padding: 10px 20px;
+  background: #504741;
+  color: lightgray;
+  cursor: pointer;
+}
+
+main .right .search button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+main .right .tag ul {
+  padding-top: 15px;
+}
+main .right .tag ul li {
+  display: inline;
+  padding: 5px;
+  font-size: 10px;
+}
+
+main .right .tag ul li:hover {
+  text-decoration: underline;
+}
+
+main .right .tag ul li.big {
+  font-size: 25px;
+}
+
+/* Fine regole colonna destra */
