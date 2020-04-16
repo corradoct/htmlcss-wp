@@ -101,9 +101,6 @@ main {
 main .col {
   float: left;
   width: 24%;
-  border-radius: 3px;
-  background: green;
-  height: 500px;
 }
 main::after {
   content: '';
@@ -114,6 +111,38 @@ main::after {
 main .center {
   width: 48%;
   margin: 0 2%;
-  background: aqua;
-  height: 500px;
+}
+
+main .col .box {
+  margin-bottom: 7%;
+  background: #fff;
+  border-radius: 3px;
+}
+
+main .col .box {
+  padding: 25px;
+}
+
+main .col .box span{
+  font-size: 20px;
+}
+
+main .col .box ul li {
+  padding: 20px;
+}
+
+main .col .box ul li {
+  list-style: none;
+}
+
+main .col .box ul li:hover {
+  box-shadow: 3px -2px lightgray;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+main .col .box ul li a {
+  text-decoration: none;
+  color: green;
 }
