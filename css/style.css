@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Fine reset */
+
+/* Inizio regole generali */
+body {
+  background-image: url('../img/background.png');
+  background-position: top left;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Fine regole generali */
+
+/* Inizio regole header */
+header .background-header {
+  height: 30vh;
+  background-image: url('../img/background-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10px solid #fff;
+  margin-top: 25px;
+  position: relative;
+}
+
+header .background-header .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header .background-header .title h1 {
+  font-size: 50px;
+}
+
+header .background-header .title h1 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header .background-header .title p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+nav {
+  height: 5vh;
+  background: #504741;
+  text-align: center;
+  line-height: 5vh;
+  border-radius: 3px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 0 15px;
+}
+
+nav ul li:last-child {
+  border-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul li.arrow a::after {
+  content: '\25BF';
+  margin-left: 5px;
+}
+/* Fine regole header */
+
+/* Inizio regole main */
+main {
+  margin: 20px 0;
+}
+main .col {
+  float: left;
+  width: 24%;
+  border-radius: 3px;
+  background: green;
+  height: 500px;
+}
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main .center {
+  width: 48%;
+  margin: 0 2%;
+  background: aqua;
+  height: 500px;
+}
